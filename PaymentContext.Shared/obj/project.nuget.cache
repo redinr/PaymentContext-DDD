@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9/EhzZwogLc=",
+  "dgSpecHash": "FHPixtSZsbU=",
   "success": true,
-  "projectFilePath": "C:\\Users\\RicardoRedin\\Documents\\Projects\\PaymentContext\\PaymentContext.Shared\\PaymentContext.Shared.csproj",
+  "projectFilePath": "C:\\Users\\RicardoRedin\\Documents\\Projects\\PaymentContext-DDD\\PaymentContext.Shared\\PaymentContext.Shared.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

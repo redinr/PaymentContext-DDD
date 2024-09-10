@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kiaG8ncbVH8=",
+  "dgSpecHash": "6SvSnAvoyTg=",
   "success": true,
-  "projectFilePath": "C:\\Users\\RicardoRedin\\Documents\\Projects\\PaymentContext\\PaymentContext.Tests\\PaymentContext.Tests.csproj",
+  "projectFilePath": "C:\\Users\\RicardoRedin\\Documents\\Projects\\PaymentContext-DDD\\PaymentContext.Tests\\PaymentContext.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\RicardoRedin\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
     "C:\\Users\\RicardoRedin\\.nuget\\packages\\microsoft.codecoverage\\17.8.0\\microsoft.codecoverage.17.8.0.nupkg.sha512",

@@ -1038,11 +1038,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\RicardoRedin\\Documents\\Projects\\PaymentContext\\PaymentContext.Tests\\PaymentContext.Tests.csproj",
+      "projectUniqueName": "C:\\Users\\RicardoRedin\\Documents\\Projects\\PaymentContext-DDD\\PaymentContext.Tests\\PaymentContext.Tests.csproj",
       "projectName": "PaymentContext.Tests",
-      "projectPath": "C:\\Users\\RicardoRedin\\Documents\\Projects\\PaymentContext\\PaymentContext.Tests\\PaymentContext.Tests.csproj",
+      "projectPath": "C:\\Users\\RicardoRedin\\Documents\\Projects\\PaymentContext-DDD\\PaymentContext.Tests\\PaymentContext.Tests.csproj",
       "packagesPath": "C:\\Users\\RicardoRedin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\RicardoRedin\\Documents\\Projects\\PaymentContext\\PaymentContext.Tests\\obj\\",
+      "outputPath": "C:\\Users\\RicardoRedin\\Documents\\Projects\\PaymentContext-DDD\\PaymentContext.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1064,11 +1064,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\RicardoRedin\\Documents\\Projects\\PaymentContext\\PaymentContext.Domain\\PaymentContext.Domain.csproj": {
-              "projectPath": "C:\\Users\\RicardoRedin\\Documents\\Projects\\PaymentContext\\PaymentContext.Domain\\PaymentContext.Domain.csproj"
+            "C:\\Users\\RicardoRedin\\Documents\\Projects\\PaymentContext-DDD\\PaymentContext.Domain\\PaymentContext.Domain.csproj": {
+              "projectPath": "C:\\Users\\RicardoRedin\\Documents\\Projects\\PaymentContext-DDD\\PaymentContext.Domain\\PaymentContext.Domain.csproj"
             },
-            "C:\\Users\\RicardoRedin\\Documents\\Projects\\PaymentContext\\PaymentContext.Shared\\PaymentContext.Shared.csproj": {
-              "projectPath": "C:\\Users\\RicardoRedin\\Documents\\Projects\\PaymentContext\\PaymentContext.Shared\\PaymentContext.Shared.csproj"
+            "C:\\Users\\RicardoRedin\\Documents\\Projects\\PaymentContext-DDD\\PaymentContext.Shared\\PaymentContext.Shared.csproj": {
+              "projectPath": "C:\\Users\\RicardoRedin\\Documents\\Projects\\PaymentContext-DDD\\PaymentContext.Shared\\PaymentContext.Shared.csproj"
             }
           }
         }
