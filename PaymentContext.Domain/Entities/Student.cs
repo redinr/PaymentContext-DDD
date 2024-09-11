@@ -1,25 +1,24 @@
-﻿using System.Reflection.Metadata.Ecma335;
+﻿using PaymentContext.Domain.ValueObjects;
+using PaymentContext.Shared.Entities;
 
 namespace PaymentContext.Domain.Entities
 {
-    public class Student
+    public class Student : Entity
     {
         private IList<Subscription> _subscription;
-        public Student(string firstName, string lastName, string email, string document)
+        public Student(Name name, Email email, Document document)
         {
-            FirstName = firstName;
-            LastName = lastName;
+            Name = name;
             Email = email;
             Document = document;
             _subscription = new List<Subscription>();
         }
         //Private in SET is to not change infos in outher class.
         //Is necessary create functions for change informations;
-        public string FirstName { get; private set; }
-        public string LastName { get; private set; }
-        public string Email { get; private set; }
-        public string Document { get; private set; }
-        public string Adress { get; private set; }
+        public Name Name { get; private set; }
+        public Email Email { get; private set; }
+        public Document Document { get; private set; }
+        public Address Address { get; private set; }
         //Obriga a chamar um método para add uma nova subscription.
         public IReadOnlyCollection<Subscription> Subscriptions { get { return _subscription.ToArray(); } }
 

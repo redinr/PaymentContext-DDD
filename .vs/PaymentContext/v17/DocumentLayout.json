@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\RicardoRedin\\Documents\\Projects\\PaymentContext-DDD\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E90657DC-A4D6-48B0-8D2C-805F58CB605E}|PaymentContext.Domain\\PaymentContext.Domain.csproj|c:\\users\\ricardoredin\\documents\\projects\\paymentcontext-ddd\\paymentcontext.domain\\entities\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E90657DC-A4D6-48B0-8D2C-805F58CB605E}|PaymentContext.Domain\\PaymentContext.Domain.csproj|solutionrelative:paymentcontext.domain\\entities\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C47B8C42-EBF6-4FD6-B01B-582668AC7072}|PaymentContext.Tests\\PaymentContext.Tests.csproj|c:\\users\\ricardoredin\\documents\\projects\\paymentcontext-ddd\\paymentcontext.tests\\entities\\studenttests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C47B8C42-EBF6-4FD6-B01B-582668AC7072}|PaymentContext.Tests\\PaymentContext.Tests.csproj|solutionrelative:paymentcontext.tests\\entities\\studenttests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E90657DC-A4D6-48B0-8D2C-805F58CB605E}|PaymentContext.Domain\\PaymentContext.Domain.csproj|c:\\users\\ricardoredin\\documents\\projects\\paymentcontext-ddd\\paymentcontext.domain\\entities\\paypalpayment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E90657DC-A4D6-48B0-8D2C-805F58CB605E}|PaymentContext.Domain\\PaymentContext.Domain.csproj|solutionrelative:paymentcontext.domain\\entities\\paypalpayment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -19,16 +27,8 @@
       "RelativeMoniker": "D:0:0:{E90657DC-A4D6-48B0-8D2C-805F58CB605E}|PaymentContext.Domain\\PaymentContext.Domain.csproj|solutionrelative:paymentcontext.domain\\entities\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E90657DC-A4D6-48B0-8D2C-805F58CB605E}|PaymentContext.Domain\\PaymentContext.Domain.csproj|c:\\users\\ricardoredin\\documents\\projects\\paymentcontext-ddd\\paymentcontext.domain\\entities\\subscription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E90657DC-A4D6-48B0-8D2C-805F58CB605E}|PaymentContext.Domain\\PaymentContext.Domain.csproj|solutionrelative:paymentcontext.domain\\entities\\subscription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E90657DC-A4D6-48B0-8D2C-805F58CB605E}|PaymentContext.Domain\\PaymentContext.Domain.csproj|c:\\users\\ricardoredin\\documents\\projects\\paymentcontext-ddd\\paymentcontext.domain\\entities\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E90657DC-A4D6-48B0-8D2C-805F58CB605E}|PaymentContext.Domain\\PaymentContext.Domain.csproj|solutionrelative:paymentcontext.domain\\entities\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C47B8C42-EBF6-4FD6-B01B-582668AC7072}|PaymentContext.Tests\\PaymentContext.Tests.csproj|c:\\users\\ricardoredin\\documents\\projects\\paymentcontext-ddd\\paymentcontext.tests\\entities\\studenttests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C47B8C42-EBF6-4FD6-B01B-582668AC7072}|PaymentContext.Tests\\PaymentContext.Tests.csproj|solutionrelative:paymentcontext.tests\\entities\\studenttests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E90657DC-A4D6-48B0-8D2C-805F58CB605E}|PaymentContext.Domain\\PaymentContext.Domain.csproj|c:\\users\\ricardoredin\\documents\\projects\\paymentcontext-ddd\\paymentcontext.domain\\valueobjects\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E90657DC-A4D6-48B0-8D2C-805F58CB605E}|PaymentContext.Domain\\PaymentContext.Domain.csproj|solutionrelative:paymentcontext.domain\\valueobjects\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,95 +38,95 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PayPalPayment.cs",
-              "DocumentMoniker": "C:\\Users\\RicardoRedin\\Documents\\Projects\\PaymentContext-DDD\\PaymentContext.Domain\\Entities\\PayPalPayment.cs",
-              "RelativeDocumentMoniker": "PaymentContext.Domain\\Entities\\PayPalPayment.cs",
-              "ToolTip": "C:\\Users\\RicardoRedin\\Documents\\Projects\\PaymentContext-DDD\\PaymentContext.Domain\\Entities\\PayPalPayment.cs",
-              "RelativeToolTip": "PaymentContext.Domain\\Entities\\PayPalPayment.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-10T18:32:30.279Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "CreditCardPayment.cs",
-              "DocumentMoniker": "C:\\Users\\RicardoRedin\\Documents\\Projects\\PaymentContext-DDD\\PaymentContext.Domain\\Entities\\CreditCardPayment.cs",
-              "RelativeDocumentMoniker": "PaymentContext.Domain\\Entities\\CreditCardPayment.cs",
-              "ToolTip": "C:\\Users\\RicardoRedin\\Documents\\Projects\\PaymentContext-DDD\\PaymentContext.Domain\\Entities\\CreditCardPayment.cs",
-              "RelativeToolTip": "PaymentContext.Domain\\Entities\\CreditCardPayment.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAA1wBcAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-10T18:31:51.335Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "BoletoPayment.cs",
-              "DocumentMoniker": "C:\\Users\\RicardoRedin\\Documents\\Projects\\PaymentContext-DDD\\PaymentContext.Domain\\Entities\\BoletoPayment.cs",
-              "RelativeDocumentMoniker": "PaymentContext.Domain\\Entities\\BoletoPayment.cs",
-              "ToolTip": "C:\\Users\\RicardoRedin\\Documents\\Projects\\PaymentContext-DDD\\PaymentContext.Domain\\Entities\\BoletoPayment.cs",
-              "RelativeToolTip": "PaymentContext.Domain\\Entities\\BoletoPayment.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-10T18:18:58.435Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Payment.cs",
-              "DocumentMoniker": "C:\\Users\\RicardoRedin\\Documents\\Projects\\PaymentContext-DDD\\PaymentContext.Domain\\Entities\\Payment.cs",
-              "RelativeDocumentMoniker": "PaymentContext.Domain\\Entities\\Payment.cs",
-              "ToolTip": "C:\\Users\\RicardoRedin\\Documents\\Projects\\PaymentContext-DDD\\PaymentContext.Domain\\Entities\\Payment.cs",
-              "RelativeToolTip": "PaymentContext.Domain\\Entities\\Payment.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-10T18:00:22.642Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Subscription.cs",
-              "DocumentMoniker": "C:\\Users\\RicardoRedin\\Documents\\Projects\\PaymentContext-DDD\\PaymentContext.Domain\\Entities\\Subscription.cs",
-              "RelativeDocumentMoniker": "PaymentContext.Domain\\Entities\\Subscription.cs",
-              "ToolTip": "C:\\Users\\RicardoRedin\\Documents\\Projects\\PaymentContext-DDD\\PaymentContext.Domain\\Entities\\Subscription.cs",
-              "RelativeToolTip": "PaymentContext.Domain\\Entities\\Subscription.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAA0wA4AAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-10T17:52:20.992Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "StudentTests.cs",
               "DocumentMoniker": "C:\\Users\\RicardoRedin\\Documents\\Projects\\PaymentContext-DDD\\PaymentContext.Tests\\Entities\\StudentTests.cs",
               "RelativeDocumentMoniker": "PaymentContext.Tests\\Entities\\StudentTests.cs",
               "ToolTip": "C:\\Users\\RicardoRedin\\Documents\\Projects\\PaymentContext-DDD\\PaymentContext.Tests\\Entities\\StudentTests.cs",
               "RelativeToolTip": "PaymentContext.Tests\\Entities\\StudentTests.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA0AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-10T14:46:15.23Z",
+              "WhenOpened": "2024-09-11T20:32:23.533Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PayPalPayment.cs",
+              "DocumentMoniker": "C:\\Users\\RicardoRedin\\Documents\\Projects\\PaymentContext-DDD\\PaymentContext.Domain\\Entities\\PayPalPayment.cs",
+              "RelativeDocumentMoniker": "PaymentContext.Domain\\Entities\\PayPalPayment.cs",
+              "ToolTip": "C:\\Users\\RicardoRedin\\Documents\\Projects\\PaymentContext-DDD\\PaymentContext.Domain\\Entities\\PayPalPayment.cs",
+              "RelativeToolTip": "PaymentContext.Domain\\Entities\\PayPalPayment.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwBQAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T20:31:53.893Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CreditCardPayment.cs",
+              "DocumentMoniker": "C:\\Users\\RicardoRedin\\Documents\\Projects\\PaymentContext-DDD\\PaymentContext.Domain\\Entities\\CreditCardPayment.cs",
+              "RelativeDocumentMoniker": "PaymentContext.Domain\\Entities\\CreditCardPayment.cs",
+              "ToolTip": "C:\\Users\\RicardoRedin\\Documents\\Projects\\PaymentContext-DDD\\PaymentContext.Domain\\Entities\\CreditCardPayment.cs",
+              "RelativeToolTip": "PaymentContext.Domain\\Entities\\CreditCardPayment.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwBYAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T20:31:45.116Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BoletoPayment.cs",
+              "DocumentMoniker": "C:\\Users\\RicardoRedin\\Documents\\Projects\\PaymentContext-DDD\\PaymentContext.Domain\\Entities\\BoletoPayment.cs",
+              "RelativeDocumentMoniker": "PaymentContext.Domain\\Entities\\BoletoPayment.cs",
+              "ToolTip": "C:\\Users\\RicardoRedin\\Documents\\Projects\\PaymentContext-DDD\\PaymentContext.Domain\\Entities\\BoletoPayment.cs",
+              "RelativeToolTip": "PaymentContext.Domain\\Entities\\BoletoPayment.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAgwBUAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T20:31:32.664Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "Payment.cs",
+              "DocumentMoniker": "C:\\Users\\RicardoRedin\\Documents\\Projects\\PaymentContext-DDD\\PaymentContext.Domain\\Entities\\Payment.cs",
+              "RelativeDocumentMoniker": "PaymentContext.Domain\\Entities\\Payment.cs",
+              "ToolTip": "C:\\Users\\RicardoRedin\\Documents\\Projects\\PaymentContext-DDD\\PaymentContext.Domain\\Entities\\Payment.cs",
+              "RelativeToolTip": "PaymentContext.Domain\\Entities\\Payment.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwBUAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T20:28:40.931Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Address.cs",
+              "DocumentMoniker": "C:\\Users\\RicardoRedin\\Documents\\Projects\\PaymentContext-DDD\\PaymentContext.Domain\\ValueObjects\\Address.cs",
+              "RelativeDocumentMoniker": "PaymentContext.Domain\\ValueObjects\\Address.cs",
+              "ToolTip": "C:\\Users\\RicardoRedin\\Documents\\Projects\\PaymentContext-DDD\\PaymentContext.Domain\\ValueObjects\\Address.cs",
+              "RelativeToolTip": "PaymentContext.Domain\\ValueObjects\\Address.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAACDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T20:27:54.896Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Student.cs",
               "DocumentMoniker": "C:\\Users\\RicardoRedin\\Documents\\Projects\\PaymentContext-DDD\\PaymentContext.Domain\\Entities\\Student.cs",
               "RelativeDocumentMoniker": "PaymentContext.Domain\\Entities\\Student.cs",
               "ToolTip": "C:\\Users\\RicardoRedin\\Documents\\Projects\\PaymentContext-DDD\\PaymentContext.Domain\\Entities\\Student.cs",
               "RelativeToolTip": "PaymentContext.Domain\\Entities\\Student.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAgwBwAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-10T13:45:04.647Z",
               "EditorCaption": ""
