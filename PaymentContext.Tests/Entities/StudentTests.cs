@@ -1,9 +1,4 @@
-﻿using PaymentContext.Domain.Entities;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using PaymentContext.Domain.ValueObjects;
 
 namespace PaymentContext.Tests.Entities
 {
@@ -13,9 +8,11 @@ namespace PaymentContext.Tests.Entities
         [TestMethod]
         public void AddNewSubscription()
         {
-            //var subscription = new Subscription(null);
-            //var student = new Student("Ricardo","Redin","123456789");
-            //student.AddSubscription(subscription);
+            var name = new Name("Teste", "Teste");
+            foreach(var notif in name.Notifications)
+            {
+                //notif.Message;
+            }
         }
     }
 }

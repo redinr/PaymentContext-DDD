@@ -12,6 +12,8 @@ namespace PaymentContext.Domain.Entities
             Email = email;
             Document = document;
             _subscription = new List<Subscription>();
+            
+            AddNotifications(name, email, document);
         }
         //Private in SET is to not change infos in outher class.
         //Is necessary create functions for change informations;

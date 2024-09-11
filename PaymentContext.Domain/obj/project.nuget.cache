@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "40Up6PTySrc=",
+  "dgSpecHash": "F+n2ikBQ3yg=",
   "success": true,
   "projectFilePath": "C:\\Users\\RicardoRedin\\Documents\\Projects\\PaymentContext-DDD\\PaymentContext.Domain\\PaymentContext.Domain.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\RicardoRedin\\.nuget\\packages\\flunt\\2.0.5\\flunt.2.0.5.nupkg.sha512"
+  ],
   "logs": []
 }

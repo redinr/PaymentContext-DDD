@@ -1,4 +1,5 @@
-﻿using PaymentContext.Shared.ValueObjects;
+﻿using Flunt.Notifications;
+using PaymentContext.Shared.ValueObjects;
 
 namespace PaymentContext.Domain.ValueObjects
 {
@@ -8,6 +9,8 @@ namespace PaymentContext.Domain.ValueObjects
         {
             FirstName = firstName;
             LastName = lastName;
+            if (string.IsNullOrEmpty(FirstName))
+                AddNotification("FirstName", "Nome inválido");
         }
 
         public string FirstName { get; private set; }
