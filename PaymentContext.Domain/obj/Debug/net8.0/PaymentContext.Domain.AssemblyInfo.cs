@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PaymentContext.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1bfb68fd0baa9aa7c6e48c47baac8aa8c5c6cad2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d9f6c8449e17de09ebd1cc1c240f4cab8d3eb51f")]
 [assembly: System.Reflection.AssemblyProductAttribute("PaymentContext.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PaymentContext.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,4 +1,5 @@
-﻿using PaymentContext.Shared.ValueObjects;
+﻿using Flunt.Validations;
+using PaymentContext.Shared.ValueObjects;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -18,6 +19,16 @@ namespace PaymentContext.Domain.ValueObjects
             State = state;
             Country = country;
             ZipCode = zipCode;
+
+            AddNotifications(new Contract()
+                .Requires()
+                .HasMinLen(Street, 3, "Address.Street", "Rua deve conter no mínimo 3 caracteres.")
+                .HasMinLen(Number, 1, "Address.Number", "Número deve conter no mínimo 1 caracteres.")
+                .HasMinLen(City, 3, "Address.City", "Cidade deve conter no mínimo 3 caracteres.")
+                .HasMinLen(State, 2, "Address.State", "Estado deve conter no mínimo 2 caracteres.")
+                .HasMinLen(Country, 2, "Address.Country", "País deve conter no mínimo 2 caracteres.")
+                .HasMinLen(ZipCode, 8, "Address.ZipCode", "Código Postal deve conter no mínimo 8 caracteres.")
+            );
         }
 
         public string Street { get; private set; }

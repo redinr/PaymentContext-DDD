@@ -1,4 +1,5 @@
-﻿using PaymentContext.Domain.ValueObjects;
+﻿using Flunt.Validations;
+using PaymentContext.Domain.ValueObjects;
 using PaymentContext.Shared.Entities;
 
 namespace PaymentContext.Domain.Entities
@@ -12,7 +13,7 @@ namespace PaymentContext.Domain.Entities
             Email = email;
             Document = document;
             _subscription = new List<Subscription>();
-            
+
             AddNotifications(name, email, document);
         }
         //Private in SET is to not change infos in outher class.
@@ -26,12 +27,22 @@ namespace PaymentContext.Domain.Entities
 
         public void AddSubscription(Subscription subscription)
         {
-            foreach (var sub in Subscriptions) {
-                sub.Inactivate();
+            var hasSubcriptionActive = false;
+            foreach (var sub in Subscriptions)
+            {
+                if (sub.Active)
+                {
+                    hasSubcriptionActive = true;
+                }
             }
-            _subscription.Add(subscription);
+            AddNotifications(new Contract()
+                .Requires()
+                .IsFalse(hasSubcriptionActive, "Student.Subscriptions", "Você já possui assinatura ativa.")
+                .AreNotEquals(0, subscription.Payments.Count,"Student.Subscription,Payments", "Está assinatura não possui pagamentos.")
+            );
 
+            if (Valid)
+                _subscription.Add(subscription);
         }
-
     }
 }
