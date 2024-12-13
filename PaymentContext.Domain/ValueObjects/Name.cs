@@ -8,12 +8,7 @@ namespace PaymentContext.Domain.ValueObjects
         public Name(string firstName, string lastName)
         {
             FirstName = firstName;
-            LastName = lastName;
-            AddNotifications(new Contract()
-                .Requires()
-                .HasMinLen(FirstName, 3, "Name.FirstName", "Name deve conter no mínimo 3 caracteres.")
-                .HasMinLen(LastName, 3, "Name.LastName", "Sobrenome deve conter no mínimo 3 caracteres.")
-            );
+            LastName = lastName;            
         }
 
         public string FirstName { get; private set; }
