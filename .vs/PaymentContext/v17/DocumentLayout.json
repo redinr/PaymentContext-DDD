@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Developer\\Documents\\ProjectsPrivates\\PaymentContext-DDD\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E90657DC-A4D6-48B0-8D2C-805F58CB605E}|PaymentContext.Domain\\PaymentContext.Domain.csproj|c:\\users\\developer\\documents\\projectsprivates\\paymentcontext-ddd\\paymentcontext.domain\\queries\\studentqueries.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E90657DC-A4D6-48B0-8D2C-805F58CB605E}|PaymentContext.Domain\\PaymentContext.Domain.csproj|solutionrelative:paymentcontext.domain\\queries\\studentqueries.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C47B8C42-EBF6-4FD6-B01B-582668AC7072}|PaymentContext.Tests\\PaymentContext.Tests.csproj|c:\\users\\developer\\documents\\projectsprivates\\paymentcontext-ddd\\paymentcontext.tests\\handlers\\subscriptionhandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C47B8C42-EBF6-4FD6-B01B-582668AC7072}|PaymentContext.Tests\\PaymentContext.Tests.csproj|solutionrelative:paymentcontext.tests\\handlers\\subscriptionhandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -22,11 +26,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "StudentQueries.cs",
+              "DocumentMoniker": "C:\\Users\\Developer\\Documents\\ProjectsPrivates\\PaymentContext-DDD\\PaymentContext.Domain\\Queries\\StudentQueries.cs",
+              "RelativeDocumentMoniker": "PaymentContext.Domain\\Queries\\StudentQueries.cs",
+              "ToolTip": "C:\\Users\\Developer\\Documents\\ProjectsPrivates\\PaymentContext-DDD\\PaymentContext.Domain\\Queries\\StudentQueries.cs",
+              "RelativeToolTip": "PaymentContext.Domain\\Queries\\StudentQueries.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T21:32:24.34Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "FakeStudentRepository.cs",
               "DocumentMoniker": "C:\\Users\\Developer\\Documents\\ProjectsPrivates\\PaymentContext-DDD\\PaymentContext.Tests\\Mocks\\FakeStudentRepository.cs",
               "RelativeDocumentMoniker": "PaymentContext.Tests\\Mocks\\FakeStudentRepository.cs",
@@ -34,12 +51,11 @@
               "RelativeToolTip": "PaymentContext.Tests\\Mocks\\FakeStudentRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T21:21:46.254Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-16T21:21:46.254Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "SubscriptionHandlerTests.cs",
               "DocumentMoniker": "C:\\Users\\Developer\\Documents\\ProjectsPrivates\\PaymentContext-DDD\\PaymentContext.Tests\\Handlers\\SubscriptionHandlerTests.cs",
               "RelativeDocumentMoniker": "PaymentContext.Tests\\Handlers\\SubscriptionHandlerTests.cs",
@@ -52,7 +68,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "CreateBoletoSubscriptionCommandTests.cs",
               "DocumentMoniker": "C:\\Users\\Developer\\Documents\\ProjectsPrivates\\PaymentContext-DDD\\PaymentContext.Tests\\Commands\\CreateBoletoSubscriptionCommandTests.cs",
               "RelativeDocumentMoniker": "PaymentContext.Tests\\Commands\\CreateBoletoSubscriptionCommandTests.cs",
@@ -60,8 +76,7 @@
               "RelativeToolTip": "PaymentContext.Tests\\Commands\\CreateBoletoSubscriptionCommandTests.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T21:07:54.604Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-16T21:07:54.604Z"
             }
           ]
         }
